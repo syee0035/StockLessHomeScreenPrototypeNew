@@ -1,0 +1,90 @@
+/* ─── StockLess design tokens ───────────────────────────────────────────────
+   Edit this file to restyle the entire app.
+   Every colour, font, size, and shadow used in components is a CSS variable.
+   ─────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── Ink / text ── */
+  --ink:            #16313B;
+  --ink-2:          #243238;
+  --muted:          #66767D;
+  --muted-2:        #86949A;
+
+  /* ── Structural ── */
+  --line:           #D7E0DD;
+  --line-soft:      #E8EEEC;
+  --border-strong:  #B8C8C4;
+
+  /* ── Teal (primary) ── */
+  --teal:           #167D74;
+  --teal-deep:      #11655E;
+  --teal-tint:      #E8F3F0;
+  --mint:           #8FD2C8;
+
+  /* ── Red / danger ── */
+  --red:            #9B3939;
+  --red-tint:       #FBE8E8;
+
+  /* ── Amber / warn ── */
+  --amber:          #8B5C10;
+  --amber-tint:     #FFF4DF;
+  --amber-strong:   #D99120;
+  --amber-accent:   #cd8c24;
+
+  /* ── Page / canvas ── */
+  --page:           #FFFFFF;
+  --card:           #FFFFFF;
+
+  /* ── Shadows ── */
+  --shadow-card:    0 10px 30px rgba(22, 49, 59, .05);
+
+  /* ── Typography: families ── */
+  --font-display:   'Manrope', system-ui, sans-serif;
+  --font-body:      'Source Sans 3', system-ui, sans-serif;
+  --font-data:      'Inter', system-ui, sans-serif;
+  --font-hand:      'Caveat', cursive;
+
+  /* ── Typography: weights ── */
+  --weight-display: 800;
+  --weight-heading: 700;
+  --weight-body:    400;
+  --weight-bold:    700;
+
+  /* ── Typography: sizes ── */
+  --text-hero:          52px;
+  --text-page-title:    36px;
+  --text-lead:          18px;
+  --text-section-head:  20px;
+  --text-body:          15px;
+  --text-secondary:     13px;
+  --text-description:   12px;
+  --text-label:         10px;
+  --text-eyebrow:       11px;
+  --text-hand:          22px;
+  --text-step-num:      72px;
+
+  /* ── Spacing ── */
+  --space-1:    4px;
+  --space-2:    8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-5:   20px;
+  --space-6:   24px;
+  --space-8:   32px;
+  --space-10:  40px;
+  --space-12:  48px;
+  --space-16:  64px;
+  --space-20:  80px;
+  --space-24:  96px;
+
+  /* ── Layout ── */
+  --page-max-width: 1080px;
+  --content-width:   760px;
+  --radius-sm:    6px;
+  --radius:      10px;
+  --radius-card: 16px;
+  --radius-btn:  10px;
+
+  /* ── Motion ── */
+  --transition: 160ms ease;
+}

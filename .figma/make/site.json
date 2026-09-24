@@ -1,0 +1,10 @@
+{
+  "description": "Empowering grocery shop owners to optimize stock orders, this app analyzes sales data to determine ideal inventory levels while ensuring data privacy.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
